@@ -1,3 +1,18 @@
+# --- MLOps Specific Ignores ---
+# Ignore raw and processed data folders
+/data/raw/
+/data/processed/
+/data/features/
+
+# Ignore model artifacts
+/models/
+*.pkl
+*.h5
+*.joblib
+
+# Ignore evaluation outputs
+/reports/
+metrics.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +220,4 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+/metrics.json
