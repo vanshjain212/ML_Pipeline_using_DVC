@@ -1,0 +1,4 @@
+[core]
+    remote = origin
+['remote "origin"']
+    url = https://dagshub.com/vanshjain212/ML_Pipeline_using_DVC.dvc
